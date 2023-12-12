@@ -1,0 +1,15 @@
+.movie {
+  background-color: white;
+  background-color: rgb(15, 15, 205);
+  color: white;
+  border: 2px soloid rgb(15, 15, 215);
+  border-radius: 10px;
+  width: 550px;
+  height: 250px;
+}
+.movie h2 {
+  color: yellow;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 20px;
+}
