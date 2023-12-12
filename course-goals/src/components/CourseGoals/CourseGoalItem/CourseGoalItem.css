@@ -1,0 +1,66 @@
+ .goal-item {
+  margin: 1rem 0;
+  background: #009dc4;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  color: white;
+  padding: 1rem 2rem;
+  cursor: pointer;
+} 
+.styling{
+    padding-left: 20rem;
+    margin-top: -1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+    
+}
+.btn{
+    color: black;
+    background-color:#78e4ff ;
+    border-color:#78e4ff ;
+    border-radius: 5px;
+}
+.btn:hover{
+color: white;
+background-color: #00bdec;
+border-color:  #00bdec ;
+}
+/* .goal-item {
+  background: #009dc4;
+  color: white;
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.goal-item > div {
+  flex: 1;
+}
+
+.goal-item input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.goal-item button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #78e4ff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.goal-item button.edit-btn {
+  background-color: #2196f3;
+}
+
+.goal-item button.delete-btn {
+  background-color: #f44336;
+} */
