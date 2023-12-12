@@ -1,0 +1,52 @@
+.addtask{
+    max-width: 740px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 1px 3px 0px;
+    border-radius: 5px;
+}
+
+.addtask form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.addtask label{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.reset{
+    border: 0px;
+    border-radius: 5px;
+    background-color: #be3434;
+    color: #ffffff;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .add-tag{
+    border: 0px;
+    border-radius: 5px;
+    background-color: #088012;
+    color: #ffffff;
+    padding: 8px 10px;
+    cursor: pointer;
+  }
+
+  .i-tag{
+    font: 20px;
+    outline-style:none;
+    border: 0.5px solid grey;
+    margin: 20px 5px;
+    box-shadow:  rgba(0,0,0,0.16) 0px 1px 4px ;
+    border-radius: 5px;
+    padding: 15px;
+    padding-right: 250px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+  

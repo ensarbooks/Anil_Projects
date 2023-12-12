@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+h1{
+  font-size: 28px;
+  text-align: center;
+  margin: -10px;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  height: 50px;
+  width: 38vw;
+  /* margin: auto; */
+  /* border-bottom: 1px solid; */
+  /* padding: 0px 10px; */
+}
+
+img{
+  max-width: 40px;
+}
+
+ul{
+  /* max-width: 620px; */
+  margin: 0 auto;
+  width: 40vw;
+  padding: 20px;
+  /* box-shadow: rgba(0,0,0,0.02) 0px 1px 3px 0px , rgba(27, 31, 35, 0.15) 0px 0px 1px 3px; */
+
+}
+
+li{
+  font: 16px;
+  list-style:none;
+  margin: 20px 5px;
+  /* box-shadow:  rgba(0,0,0,0.16) 0px 1px 4px ; */
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed{
+  box-shadow: rgb(48, 114,0)0px 1px 4px;
+}
+
+li.incomplete{
+  box-shadow: rgba(135, 20, 0, 0.689) 0px 1px 4px;
+}
+
+button.delete{
+  border: 0px;
+  border-radius: 5px;
+  background-color: #be3434;
+  color: #ffffff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button.trigger{
+  background-color: #0f3460;
+  color: #ffffff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.box{
+  width: 600px;
+  margin: 20px auto;
+  box-shadow: rgba(0,0,0,0.16) 0px 1px 4px;
+  padding: 20px 5px;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.box.success{
+  background-color: #baffbf;
+}
+
+.box.alert{
+  background-color: #ffb4b4;
+}
+
+.box.warning{
+  background-color: #FFdeb4;
+}
+
+.box p{
+  margin: 10px;
+}
+
+.box p.title{
+  font-size: 20px;
+}
+
+.box p.description{
+  font-size: 14px;
+}
+
+.hidden{
+  display: none;
+}
+
+main {
+  min-height: 90vh;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+
+footer{
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #d7d7d7;
+}
