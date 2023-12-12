@@ -1,0 +1,224 @@
+ body {
+    font-family: sans-serif;
+ }
+ .main-navigation {
+    background-color:#ffffff ;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    /* box-shadow: 0px 3px 12px 0.2px rgb(221, 220, 220); */
+    border-bottom: 1px solid rgb(233, 229, 229);
+    align-items: center;
+
+  }
+  .main-navigation a:hover {
+   color: black;
+    cursor: pointer; /* Change the cursor style to a pointer on hover */
+  }
+
+  
+
+  .nav-menu-item {
+    text-decoration: none;
+    color:#a7a7a5 ;
+    padding: 10px;
+  }
+
+
+
+  .section {
+    min-height: 90vh;
+    background-color: gray;
+    overflow-y: hidden;
+    display: flex;
+   background-color: white;
+    align-items: center;
+     padding: 20px 20px; 
+    width: 800px;
+  }
+  .Search-tag {
+    font-family: merriweather;
+    color: #0D1C52;
+    font-weight: bold;
+  }
+  .paragraph-tag {
+    font-family: mulish;
+    color: #0D1C52;
+    font-weight: bold;
+  }
+
+  .container {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    width: 315px;
+    margin-left: 0;
+    
+  }
+  .body-box {
+   background-color: #f1f1df;
+    height: 650px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+  .patch-div {
+   border-radius: 45px;
+   width: 250px;
+   height: 310px;
+   background-color: #FAB564; 
+   margin-left: 100px;
+   margin-top: 30px
+  }
+  .patch-div-1 {
+    border-radius: 40px;
+    width: 160px;
+    height:230px;
+    background-color: #FC6C4C;
+    margin-top: -185px;
+    margin-left: 486px;
+  }
+
+   .body-box-item {
+    position: relative;
+    height: 500px;
+    width: 413px;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white; 
+    border-radius: 20px;
+    margin-top: -250px;
+    margin-left: 150px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #243264;
+   }
+
+   .date-box {
+      margin-left: -10px;
+      /* padding-left: -10px; */
+      /* padding-right: -10px; */
+      color: #0D1C52;
+      font-family: mulish;
+      font-weight: bold;
+      font-size: 12px;
+   }
+  
+   .date-box input {
+    margin-bottom: 10px;
+ }
+
+
+   .date-change{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 140px;
+    
+   }
+   .input-tag {
+    margin-bottom: 10px;
+    padding-right: 130px;
+    /* color: #10287c; */
+    font-size: 11px;
+     color: #0D1C52;
+    font-weight: bold;
+    /* background-color: #0D1C52; */
+   }
+   
+   .input-location {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0D1C52;
+    /* font-weight: bold; */
+    font-family: mulish;
+    margin-right: 3px;
+   }
+   .location-tag {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #0D1C52;
+    font-family: mulish;
+    font-weight: bold;
+    margin-right: 5px;
+   }
+   .Search-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #FC6C4C;
+    border-radius: 10px;
+    color: white;
+    width: 302px;
+    height: 50px;
+    text-align: center;
+    margin-top: 14px;
+    font-family: mulish;
+    font-weight: bold;
+   }
+   .para-tag {
+    margin: 5px 0;
+    font-size: 12px;
+    color: #0D1C52;
+    font-family: mulish;
+    font-weight: bold;
+   }
+   .select {
+    padding-left: 3px;
+    width: 70px;
+    height: 25px;
+  }
+
+  .time-tag-1 {
+    /* padding-right: 3px; */
+    /* margin-right: 10px; */
+    margin-left: 0px;
+    
+   }
+   .img-tag {
+    width: 15px;
+   }
+
+  .footer {
+    display: flex;
+    color: #7D7A9E;
+    font: 12px Muli, sans-serif;
+    background-color: #ffffff;
+    padding: 0px 25px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.2px solid rgb(245, 245, 245);
+    padding-top: 20px;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 200px;
+    max-width: 500px;
+    margin-top: 10px;
+     }
+  
+     .footer-menu {
+       display: flex;
+       justify-content: space-between;
+       min-width: 200px;
+       max-width: 500px;
+
+    }
+
+    .footer-menu-item {
+        text-decoration: none;
+        color: #7D7A9E;
+    }
+
+    .copyright {
+     padding-top: 8px;
+    }
+     
